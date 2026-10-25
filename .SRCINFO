@@ -1,0 +1,15 @@
+pkgbase = abcde-musicbrainz-py
+	pkgdesc = Perl-free MusicBrainz helper (abcde-musicbrainz-tool replacement) for abcde
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://abcde.einval.com/
+	install = abcde-musicbrainz-py.install
+	arch = any
+	license = GPL-2.0-or-later
+	depends = abcde
+	depends = python
+	depends = python-discid
+	source = abcde-musicbrainz-tool.py
+	sha256sums = 44542de7c5350f758ad8bc10a49baa7d501634da42fce0092ff3fe864ea55d86
+
+pkgname = abcde-musicbrainz-py

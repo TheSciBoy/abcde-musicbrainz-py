@@ -1,0 +1,5 @@
+post_install() {
+  echo ">>> To make abcde use the Python MusicBrainz helper, add this line to"
+  echo ">>> ~/.abcde.conf (or /etc/abcde.conf):"
+  echo ">>>     MUSICBRAINZ=abcde-musicbrainz-tool-py"
+}
